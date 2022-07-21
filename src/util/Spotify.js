@@ -94,7 +94,7 @@ const Spotify = {
         throw new Error("playlist id request failed");
       }
 
-      const addPlaylistResponse = await fetch(
+      await fetch(
         `https://api.spotify.com/v1/users/${userId}/playlists/${playlistId}/tracks`,
         {
           headers: headers,

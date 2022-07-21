@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Playlist.css";
 import TrackList from "../Tracklist/TrackList";
 
 function Playlist(props) {
   const { playListName, playlistTracks, onRemove, onSave, onNameChange } =
     props;
-  const [name, setName] = useState(playListName);
 
   const handleNameChange = (e) => {
-    setName(e.target.value);
     onNameChange(e.target.value);
   };
 
