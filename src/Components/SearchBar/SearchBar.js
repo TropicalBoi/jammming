@@ -20,7 +20,7 @@ function SearchBar(props) {
         placeholder="Enter A Song, Album, or Artist"
       />
       <button className="SearchButton" onClick={handleSearch}>
-        SEARCH
+        เซิ้ง!
       </button>
     </div>
   );
