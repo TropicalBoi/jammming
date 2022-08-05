@@ -59,7 +59,7 @@ const Spotify = {
     }
   },
 
-  async savePlaylist(name) {
+  async savePlaylist(name, trackUris) {
     try {
       if (!name || !trackUris.length) {
         return;
