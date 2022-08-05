@@ -15,7 +15,7 @@ function Playlist(props) {
       <input defaultValue={playListName} onChange={handleNameChange} />
       <TrackList tracks={playlistTracks} onRemove={onRemove} isRemoval={true} />
       <button className="Playlist-save" onClick={onSave}>
-        เมี้ยนไปม่วน!
+        เซิ้ง!
       </button>
     </div>
   );
